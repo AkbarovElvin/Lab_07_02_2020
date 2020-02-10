@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+    margin: 10px auto; 
+}
+.clear-fixed{
+    clear: both;
+}
+[class*="col-"]{
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+}
+/*Futures section start*/
+main #futures{
+    background-color: #000;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+i{
+    color: white;
+}
+#futures .future-vision{
+    background-color: #E9204F;
+    padding: 30px;
+    margin: 25px;
+}
+#futures .product-design{
+    background-color: #E9204F;
+    padding: 30px;
+    margin: 25px;
+
+}
+#futures .innovate-solutions{
+    background-color: #E9204F;
+    padding: 30px;
+    margin: 25px;
+}
+/*Futures section end*/
+
